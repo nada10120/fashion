@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+        }
+        .one{
+            background-color: aqua;
+            position: absolute;
+            z-index: 1;
+            
+        }
+        .two{
+            position: absolute;
+          
+            background-color: rgb(39, 20, 210);
+
+           z-index: 2;
+            
+        }
+        .three{
+            background-color: rgb(204, 20, 210);
+            position: absolute;
+        }
+        .four{
+            background-color: rgb(210, 20, 20);
+            position: absolute;
+            z-index: -3;
+            
+        }
+        .five{
+            background-color: chartreuse;
+            position: absolute;
+           
+
+        }
+        .po{
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">one</div>
+    
+    <div class="three">three
+        <div class="two">two</div>
+    </div>
+    <div class="four">four</div>
+    <div class="five">five</div>
+   <div class="po"></div>
+</body>
+</html>
